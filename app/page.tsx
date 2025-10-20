@@ -4,7 +4,7 @@ import Image from "next/image";
 const Home = () => {
   return (
     <section
-      id="home"
+      id="acasa"
       className="relative min-h-[80vh] md:min-h-screen isolate flex items-center"
     >
       {/* Background image using Next/Image */}
@@ -18,9 +18,6 @@ const Home = () => {
             sizes="100vw"
             className="object-cover object-center opacity-60"
           />
-
-
-        
         </div>
       </div>
 
@@ -28,13 +25,13 @@ const Home = () => {
       <div className="relative z-10 container mx-auto max-w-6xl px-6 py-24">
         <div className="max-w-3xl text-neutral-700">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
-            Premium Residential Cleaning in Bucharest
+            Curățenie rezidențială premium în București
           </h1>
 
           <p className="mt-4 text-base md:text-lg bg-neutral-700/80 leading-loose font-semibold p-2 rounded text-neutral-300">
-            Eco-friendly, reliable cleaning for residential buildings in
-            Bucharest—entrances, lobbies, halls, elevators, windows, and shared
-            spaces—by trained staff.
+            Curățenie ecologică și de încredere pentru clădiri rezidențiale din
+            București — scări, holuri, lifturi, geamuri și spații comune —
+            realizată de personal calificat.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
@@ -42,13 +39,13 @@ const Home = () => {
               href="#contact"
               className="inline-flex items-center justify-center rounded-xl bg-amber-600 px-6 py-3 text-white font-semibold shadow hover:bg-amber-500 transition"
             >
-              Get a Quote
+              solicită o ofertă
             </a>
             <a
-              href="#services"
+              href="#servicii"
               className="inline-flex items-center justify-center rounded-xl bg-white/90 px-6 py-3 text-gray-900 font-semibold shadow hover:bg-white transition"
             >
-              Our Services
+              serviciile noastre
             </a>
           </div>
         </div>
