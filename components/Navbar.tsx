@@ -141,7 +141,7 @@ const Navbar = () => {
           open ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2 pointer-events-none'
         }`}
       >
-        <div className="px-4 py-4 space-y-1 text-sm flex flex-col justify-center items-center font-medium">
+        <div className="px-4 py-4 space-y-1 text-sm font-medium">
           {navlinks.map((link) => {
             const id = slugs[link];
             const isActive = active === link;
