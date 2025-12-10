@@ -45,7 +45,7 @@ const Home = () => {
               href="#servicii"
               className="inline-flex items-center justify-center rounded-xl bg-white/90 px-6 py-3 text-gray-900 font-semibold shadow hover:bg-white transition"
             >
-              serviciile noastre
+              serviciile noastre -
             </a>
           </div>
         </div>
